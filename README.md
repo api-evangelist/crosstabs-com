@@ -1,4 +1,4 @@
-# crosstabs-com
+# Crosstabs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-crosstabs-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://crosstabs.com/
+Crosstabs provides a free, browser‑based alternative to SPSS, offering a suite of statistical tools, calculators, and an open Statistics API. Users can upload SPSS, Stata, SAS, R, Excel and other data formats, run over 115 statistical procedures, and export results to PowerPoint, Word, or Excel. The platform requires no installation, account, or API key, and supports multiple languages and open CORS for direct API calls.
+
+**Areas:** Statistics · Data Analysis · Free Tools · Open API · Browser Based
+
+## Crosstabs on APIs.io
+
+Everything profiled for Crosstabs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crosstabs-com/](https://apis.io/providers/crosstabs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Crosstabs Aggregate statistics API](https://apis.io/apis/crosstabs-com/crosstabs-com-aggregate-statistics-api/) — The Aggregate statistics API from Crosstabs — 4 operation(s) for aggregate statistics.
+- [Crosstabs Chi Square API](https://apis.io/apis/crosstabs-com/crosstabs-com-chi-square-api/) — The Chi Square API from Crosstabs — 1 operation(s) for chi square.
+- [Crosstabs Contingency API](https://apis.io/apis/crosstabs-com/crosstabs-com-contingency-api/) — The Contingency API from Crosstabs — 1 operation(s) for contingency.
+- [Crosstabs Fishers Exact API](https://apis.io/apis/crosstabs-com/crosstabs-com-fishers-exact-api/) — The Fishers Exact API from Crosstabs — 1 operation(s) for fishers exact.
+- [Crosstabs Odds Ratio API](https://apis.io/apis/crosstabs-com/crosstabs-com-odds-ratio-api/) — The Odds Ratio API from Crosstabs — 1 operation(s) for odds ratio.
+- [Crosstabs Operations API](https://apis.io/apis/crosstabs-com/crosstabs-com-operations-api/) — The Operations API from Crosstabs — 1 operation(s) for operations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Crosstabs Com Agentic Access](https://apis.io/agentic-access/crosstabs-com/crosstabs-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ChiSquareResponse](https://apis.io/schemas/crosstabs-com/crosstabs-com-chi-square-response/)
+- [ContingencyResponse](https://apis.io/schemas/crosstabs-com/crosstabs-com-contingency-response/)
+- [FisherResponse](https://apis.io/schemas/crosstabs-com/crosstabs-com-fisher-response/)
+- [HealthReport](https://apis.io/schemas/crosstabs-com/crosstabs-com-health-report/)
+- [OddsRatioResponse](https://apis.io/schemas/crosstabs-com/crosstabs-com-odds-ratio-response/)
+- [TableRequest](https://apis.io/schemas/crosstabs-com/crosstabs-com-table-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Crosstabs Com Context](https://apis.io/jsonld/crosstabs-com/crosstabs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Crosstabs API Rules](https://apis.io/rules/crosstabs-com/crosstabs-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Crosstabs Com Domain Security](https://apis.io/security/crosstabs-com/crosstabs-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://crosstabs.com/)
+- [Documentation](https://www.crosstabs.com/developers)
+- [Getting started](https://www.crosstabs.com/)
+- [API reference](https://www.crosstabs.com/openapi.json)
+- [Pricing](https://www.crosstabs.com/pricing)
+- [Support](https://www.crosstabs.com/support)
+- [Changelog](https://www.crosstabs.com/changelog)
+- [Security](https://www.crosstabs.com/security)
+- [Terms of service](https://www.crosstabs.com/terms)
+- [Privacy policy](https://www.crosstabs.com/privacy)
+- [Status](https://www.crosstabs.com/status)
+
+## API Evangelist rating
+
+**Kin Score 50.2** — developing · rubric 0.25.0 · scored 2026-11-04
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 31.6 |
+
+**Agent readiness 35.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/crosstabs-com/](https://apis.io/providers/crosstabs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crosstabs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crosstabs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
